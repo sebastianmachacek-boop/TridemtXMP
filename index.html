@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,65 +13,71 @@
     <div class="logo">⛏ CREATIVE-M1XY MINECRAFT</div>
 
     <nav>
-        <a href="#domu">Domů</a>
-        <a href="#server">Server</a>
-        <a href="#pravidla">Pravidla</a>
-        <a href="#admin">Admin tým</a>
-        <a href="#navod">Návod</a>
+        <a href="#domu">Strona główna</a>
+        <a href="#server">Serwer</a>
+        <a href="#pravidla">Zasady</a>
+        <a href="#admin">Zespół administracyjny</a>
+        <a href="#navod">Instrukcja</a>
     </nav>
 </header>
 
+
 <section id="domu" class="hero">
     <div>
-        <p class="small">MINECRAFT SERVER</p>
 
-        <h1>🎮 Vítej na <span>Creative-M1XY</span>! ⛏️</h1>
+        <p class="small">SERWER MINECRAFT</p>
+
+        <h1>🎮 Witaj na <span>Creative-M1XY</span>! ⛏️</h1>
 
         <p class="description">
-            Připoj se k našemu pohodovému a hravému Minecraft serveru,
-            kde můžeš stavět, objevovat a užívat si svět Minecraftu podle sebe! 🌍✨
+            Dołącz do naszego przyjaznego i zabawnego serwera Minecraft,
+            gdzie możesz budować, odkrywać i cieszyć się światem Minecrafta po swojemu! 🌍✨
         </p>
 
         <div class="description">
-            <p>🏠 Postav si vlastní úžasné stavby</p>
-            <p>🌳 Prozkoumávej svět a objevuj nová místa</p>
-            <p>🎨 Popusť uzdu své kreativitě</p>
-            <p>👥 Hraj společně s ostatními hráči</p>
-            <p>⭐ Užij si příjemnou a zábavnou atmosféru</p>
+            <p>🏠 Zbuduj własne niesamowite budowle</p>
+            <p>🌳 Odkrywaj świat i nowe miejsca</p>
+            <p>🎨 Rozwiń swoją kreatywność</p>
+            <p>👥 Graj razem z innymi graczami</p>
+            <p>⭐ Ciesz się przyjemną i zabawną atmosferą</p>
         </div>
 
         <p class="description">
-            Ať už jsi zkušený stavitel, dobrodruh, nebo si chceš jen zahrát
-            s ostatními, na Creative-M1XY je místo pro každého.
+            Niezależnie od tego, czy jesteś doświadczonym budowniczym,
+            poszukiwaczem przygód, czy po prostu chcesz pograć z innymi,
+            na Creative-M1XY jest miejsce dla każdego.
         </p>
 
         <p class="description">
-            🚀 Připoj se a začni tvořit svůj vlastní Minecraft příběh!
+            🚀 Dołącz do nas i zacznij tworzyć swoją własną historię w Minecraft!
         </p>
 
         <div class="ip-box">
             <div>
-                <small>IP ADRESA</small>
+                <small>ADRES IP</small>
                 <strong id="ip">Creative-M1XY.aternos.me</strong>
             </div>
 
-            <button onclick="copyIP()">Kopírovat IP</button>
+            <button onclick="copyIP()">Kopiuj IP</button>
         </div>
 
         <p id="message"></p>
+
     </div>
 </section>
 
 
 <section id="server" class="section">
-    <p class="small">INFORMACE</p>
-    <h2>Informace o serveru</h2>
+
+    <p class="small">INFORMACJE</p>
+
+    <h2>Informacje o serwerze</h2>
 
     <div class="cards">
 
         <div class="card">
             <div class="icon">🎮</div>
-            <h3>Verze</h3>
+            <h3>Wersja</h3>
             <p>26.2</p>
         </div>
 
@@ -83,14 +89,14 @@
 
         <div class="card">
             <div class="icon">🌍</div>
-            <h3>Svět</h3>
-            <p>Společné dobrodružství</p>
+            <h3>Świat</h3>
+            <p>Wspólna przygoda</p>
         </div>
 
         <div class="card">
             <div class="icon">🤝</div>
-            <h3>Komunita</h3>
-            <p>Hrajeme společně</p>
+            <h3>Społeczność</h3>
+            <p>Gramy razem</p>
         </div>
 
     </div>
@@ -98,92 +104,146 @@
 
 
 <section id="pravidla" class="section">
-    <p class="small">PRAVIDLA</p>
-    <h2>Pravidla serveru</h2>
+
+    <p class="small">ZASADY</p>
+
+    <h2>Zasady serwera</h2>
 
     <div class="rules">
 
         <div class="rule allowed">
-            <h3>✓ POVOLENO</h3>
+
+            <h3>✓ DOZWOLONE</h3>
 
             <ul>
-                <li>Stavět vlastní stavby</li>
-                <li>Prozkoumávat svět</li>
-                <li>Obchodovat s hráči</li>
-                <li>Pomáhat ostatním</li>
-                <li>Hrát férově</li>
+                <li>Budowanie własnych budowli</li>
+                <li>Odkrywanie świata</li>
+                <li>Handlowanie z graczami</li>
+                <li>Pomaganie innym</li>
+                <li>Uczciwa gra</li>
             </ul>
+
         </div>
 
 
         <div class="rule forbidden">
-            <h3>✕ ZAKÁZÁNO</h3>
+
+            <h3>✕ ZABRONIONE</h3>
 
             <ul>
-                <li>Griefování cizích staveb</li>
-                <li>Krádeže</li>
+                <li>Niszczenie cudzych budowli</li>
+                <li>Kradzież</li>
                 <li>Cheaty</li>
-                <li>Obtěžování hráčů</li>
-                <li>Záměrné ničení serveru</li>
+                <li>Przeszkadzanie innym graczom</li>
+                <li>Celowe niszczenie serwera</li>
             </ul>
+
         </div>
 
     </div>
 </section>
-<!-- ADMIN TÝM -->
+
+
+<!-- ZESPÓŁ ADMINISTRACYJNY -->
 <section id="admin" class="section">
 
-    <p class="small">TÝM SERVERU</p>
-    <h2>👑 Admin tým</h2>
+    <p class="small">ZESPÓŁ SERWERA</p>
+
+    <h2>👑 Zespół administracyjny</h2>
 
     <div class="cards">
 
+
         <!-- OWNER -->
         <div class="card">
+
             <div class="icon">👑</div>
+
             <h3>Owner</h3>
-            <p><strong>Pablosportak77</strong></p>
-            <p>Hlavní vlastník a správce serveru Creative-M1XY.</p>
+
+            <p>
+                <strong>Pablosportak77</strong>
+            </p>
+
+            <p>
+                Główny właściciel i administrator serwera Creative-M1XY.
+            </p>
+
         </div>
+
 
         <!-- MOD -->
         <div class="card">
+
             <div class="icon">🛡️</div>
+
             <h3>Mod</h3>
-            <p><strong>Franta</strong></p>
-            <p>Dohlíží na dodržování pravidel a pomáhá hráčům.</p>
-            <p>📢 <strong>Mod to musí nahlásit Ownerovi.</strong></p>
+
+            <p>
+                <strong>Franta</strong>
+            </p>
+
+            <p>
+                Dba o przestrzeganie zasad i pomaga graczom.
+            </p>
+
+            <p>
+                📢 <strong>Mod musi zgłosić to Ownerowi.</strong>
+            </p>
+
         </div>
+
 
         <!-- HELPER -->
         <div class="card">
+
             <div class="icon">🔧</div>
+
             <h3>Helper</h3>
-            <p><strong>TomikBlock</strong></p>
-            <p>Pomáhá hráčům s otázkami a problémy na serveru.</p>
-            <p>📢 <strong>Helper to musí nahlásit Ownerovi.</strong></p>
+
+            <p>
+                <strong>TomikBlock</strong>
+            </p>
+
+            <p>
+                Pomaga graczom w pytaniach i problemach na serwerze.
+            </p>
+
+            <p>
+                📢 <strong>Helper musi zgłosić to Ownerowi.</strong>
+            </p>
+
         </div>
 
     </div>
+
 
     <!-- POMOC -->
     <div class="card">
 
         <div class="icon">💬</div>
 
-        <h3>Potřebuješ pomoc?</h3>
+        <h3>Potrzebujesz pomocy?</h3>
 
         <p>
-            Pokud máš problém, otázku nebo chceš něco nahlásit,
-            obrať se na člena týmu.
+            Jeśli masz problem, pytanie lub chcesz coś zgłosić,
+            zwróć się do członka zespołu.
         </p>
 
-        <p>👑 Owner: <strong>Pablosportak77</strong></p>
-        <p>🛡️ Mod: <strong>Franta</strong></p>
-        <p>🔧 Helper: <strong>TomikBlock</strong></p>
+        <p>
+            👑 Owner: <strong>Pablosportak77</strong>
+        </p>
 
         <p>
-            📢 <strong>Mod a Helper musí všechny nahlášené věci předat majiteli serveru.</strong>
+            🛡️ Mod: <strong>Franta</strong>
+        </p>
+
+        <p>
+            🔧 Helper: <strong>TomikBlock</strong>
+        </p>
+
+        <p>
+            📢 <strong>Mod i Helper muszą przekazać wszystkie zgłoszone sprawy właścicielowi serwera.</strong>
         </p>
 
     </div>
@@ -193,21 +253,21 @@
 
 <section id="navod" class="section">
 
-    <p class="small">NÁVOD</p>
+    <p class="small">INSTRUKCJA</p>
 
-    <h2>Jak se připojit?</h2>
-
+    <h2>Jak dołączyć?</h2>
 
     <div class="steps">
+
 
         <div class="step">
 
             <b>1</b>
 
-            <h3>Spusť Minecraft</h3>
+            <h3>Uruchom Minecraft</h3>
 
             <p>
-                Otevři Minecraft ve verzi 26.2.
+                Otwórz Minecraft w wersji 26.2.
             </p>
 
         </div>
@@ -217,10 +277,10 @@
 
             <b>2</b>
 
-            <h3>Multiplayer</h3>
+            <h3>Tryb wieloosobowy</h3>
 
             <p>
-                Vyber hru více hráčů.
+                Wybierz tryb gry wieloosobowej.
             </p>
 
         </div>
@@ -230,7 +290,7 @@
 
             <b>3</b>
 
-            <h3>Zadej IP</h3>
+            <h3>Wpisz IP</h3>
 
             <p>
                 Creative-M1XY.aternos.me
@@ -243,10 +303,10 @@
 
             <b>4</b>
 
-            <h3>Připoj se</h3>
+            <h3>Dołącz</h3>
 
             <p>
-                Klikni na Připojit se.
+                Kliknij przycisk „Dołącz do serwera”.
             </p>
 
         </div>
@@ -270,3 +330,4 @@
 <script src="script.js"></script>
 
 </body>
+</html>
