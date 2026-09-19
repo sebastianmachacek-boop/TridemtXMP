@@ -20,7 +20,8 @@
             color: white;
         }
 
-        /* HEADER */
+        /* ================= HEADER ================= */
+
         header {
             position: fixed;
             top: 0;
@@ -34,18 +35,19 @@
 
         .navbar {
             max-width: 1250px;
-            margin: auto;
             height: 75px;
+            margin: auto;
+            padding: 0 20px;
+
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 20px;
         }
 
         .logo {
+            color: #7c5cff;
             font-size: 22px;
             font-weight: bold;
-            color: #7c5cff;
         }
 
         nav {
@@ -90,17 +92,29 @@
             border-color: #7255ff;
         }
 
-        /* HERO */
+        /* ================= HERO ================= */
+
         .hero {
             min-height: 700px;
             padding: 170px 20px 100px;
+
             display: flex;
             align-items: center;
             justify-content: center;
+
             text-align: center;
+
             background:
-                radial-gradient(circle at 50% 20%, rgba(114, 85, 255, 0.25), transparent 35%),
-                linear-gradient(180deg, #0d1020, #080b12);
+                radial-gradient(
+                    circle at 50% 20%,
+                    rgba(114, 85, 255, 0.25),
+                    transparent 35%
+                ),
+                linear-gradient(
+                    180deg,
+                    #0d1020,
+                    #080b12
+                );
         }
 
         .hero-content {
@@ -130,7 +144,8 @@
             flex-wrap: wrap;
         }
 
-        /* SECTIONS */
+        /* ================= SECTIONS ================= */
+
         section {
             max-width: 1200px;
             margin: auto;
@@ -151,12 +166,15 @@
             color: #8992a6;
         }
 
-        /* STATUS */
+        /* ================= STATUS ================= */
+
         .status-box {
             background: #111722;
             border: 1px solid #252e40;
             border-radius: 18px;
+
             padding: 30px;
+
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
@@ -164,7 +182,9 @@
 
         .status-item {
             text-align: center;
+
             padding: 25px;
+
             background: #0c111b;
             border-radius: 14px;
         }
@@ -181,13 +201,16 @@
             color: #9aa4b8;
         }
 
-        /* SERVER */
+        /* ================= SERVER ================= */
+
         .server-card {
-            max-width: 650px;
+            max-width: 700px;
             margin: auto;
+
             background: #111722;
             border: 1px solid #293246;
             border-radius: 20px;
+
             padding: 35px;
         }
 
@@ -205,9 +228,12 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+
             gap: 10px;
+
             background: #080c14;
             border: 1px solid #293246;
+
             padding: 15px;
             border-radius: 10px;
         }
@@ -216,19 +242,25 @@
             font-family: monospace;
             font-size: 16px;
             color: #9b84ff;
+            word-break: break-all;
         }
 
         .copy-btn {
             cursor: pointer;
             border: none;
+
             padding: 10px 15px;
+
             border-radius: 8px;
+
             background: #7255ff;
             color: white;
+
             font-weight: bold;
         }
 
-        /* HOW TO JOIN */
+        /* ================= JOIN ================= */
+
         .steps {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -238,19 +270,26 @@
         .step {
             background: #111722;
             border: 1px solid #252e40;
+
             padding: 30px;
+
             border-radius: 16px;
         }
 
         .step-number {
             width: 45px;
             height: 45px;
+
             display: flex;
             align-items: center;
             justify-content: center;
+
             border-radius: 50%;
+
             background: #7255ff;
+
             margin-bottom: 20px;
+
             font-weight: bold;
         }
 
@@ -263,7 +302,8 @@
             line-height: 1.6;
         }
 
-        /* STATS */
+        /* ================= STATS ================= */
+
         .stats {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -272,15 +312,19 @@
 
         .stat {
             text-align: center;
+
             background: #111722;
             border: 1px solid #252e40;
+
             padding: 30px;
+
             border-radius: 16px;
         }
 
         .stat h3 {
             font-size: 35px;
             color: #927aff;
+
             margin-bottom: 8px;
         }
 
@@ -288,7 +332,8 @@
             color: #8d97aa;
         }
 
-        /* SHOP */
+        /* ================= SHOP ================= */
+
         .shop-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -298,8 +343,11 @@
         .shop-card {
             background: #111722;
             border: 1px solid #293246;
+
             border-radius: 20px;
+
             padding: 30px;
+
             transition: 0.2s;
         }
 
@@ -325,8 +373,10 @@
 
         .shop-price {
             margin-top: 20px;
+
             font-size: 19px;
             font-weight: bold;
+
             color: #fff;
         }
 
@@ -335,10 +385,12 @@
             color: #a99aff;
         }
 
-        /* RULES */
+        /* ================= RULES ================= */
+
         .rules {
             display: grid;
             gap: 15px;
+
             max-width: 850px;
             margin: auto;
         }
@@ -346,17 +398,30 @@
         .rule {
             background: #111722;
             border: 1px solid #252e40;
+
             padding: 20px;
+
             border-radius: 12px;
+
             color: #c4cad6;
         }
 
-        /* DISCORD */
+        /* ================= DISCORD ================= */
+
         .discord-box {
             text-align: center;
-            background: linear-gradient(135deg, #151326, #111722);
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #151326,
+                    #111722
+                );
+
             border: 1px solid #302b50;
+
             border-radius: 20px;
+
             padding: 55px 25px;
         }
 
@@ -370,12 +435,17 @@
             margin-bottom: 25px;
         }
 
-        /* FOOTER */
+        /* ================= FOOTER ================= */
+
         footer {
             border-top: 1px solid #202838;
+
             background: #06090e;
+
             padding: 40px 20px;
+
             text-align: center;
+
             color: #747e91;
         }
 
@@ -383,8 +453,10 @@
             color: white;
         }
 
-        /* RESPONSIVE */
+        /* ================= RESPONSIVE ================= */
+
         @media (max-width: 900px) {
+
             nav {
                 display: none;
             }
@@ -401,6 +473,7 @@
         }
 
         @media (max-width: 600px) {
+
             .buttons {
                 display: none;
             }
@@ -429,7 +502,10 @@
 
 <body>
 
+<!-- ================= HEADER ================= -->
+
 <header>
+
     <div class="navbar">
 
         <div class="logo">
@@ -437,16 +513,41 @@
         </div>
 
         <nav>
-            <a href="#domu">Domů</a>
-            <a href="#servery">Servery</a>
-            <a href="#pripojeni">Jak začít</a>
-            <a href="#shop">Shop</a>
-            <a href="#pravidla">Pravidla</a>
-            <a href="#discord">Discord</a>
+
+            <a href="#domu">
+                Domů
+            </a>
+
+            <a href="#servery">
+                Servery
+            </a>
+
+            <a href="#pripojeni">
+                Jak začít
+            </a>
+
+            <a href="#shop">
+                Shop
+            </a>
+
+            <a href="#pravidla">
+                Pravidla
+            </a>
+
+            <a href="#discord">
+                Discord
+            </a>
+
         </nav>
 
         <div class="buttons">
-            <a href="#shop" class="btn">Obchod</a>
+
+            <a
+                href="#shop"
+                class="btn"
+            >
+                Obchod
+            </a>
 
             <a
                 href="https://discord.com/channels/1535264749510590484/1550774524423704678"
@@ -455,13 +556,16 @@
             >
                 Discord
             </a>
+
         </div>
 
     </div>
+
 </header>
 
 
-<!-- HERO -->
+<!-- ================= HERO ================= -->
+
 <section class="hero" id="domu">
 
     <div class="hero-content">
@@ -472,13 +576,17 @@
         </h1>
 
         <p>
-            Připoj se k našemu Minecraft serveru, hraj s ostatními
-            hráči a užij si vlastní svět plný dobrodružství.
+            Připoj se k našemu Minecraft serveru,
+            hraj s ostatními hráči a užij si vlastní
+            svět plný dobrodružství.
         </p>
 
         <div class="hero-buttons">
 
-            <a href="#servery" class="btn btn-primary">
+            <a
+                href="#servery"
+                class="btn btn-primary"
+            >
                 🎮 Hrát na serveru
             </a>
 
@@ -497,29 +605,58 @@
 </section>
 
 
-<!-- STATUS -->
+<!-- ================= STATUS ================= -->
+
 <section>
 
     <div class="section-title">
-        <h2>Stav serveru</h2>
-        <p>Aktuální informace o našem serveru</p>
+
+        <h2>
+            Stav serveru
+        </h2>
+
+        <p>
+            Informace o našem Minecraft serveru
+        </p>
+
     </div>
 
     <div class="status-box">
 
         <div class="status-item">
-            <h3 class="online">● ONLINE</h3>
-            <p>Stav serveru</p>
+
+            <h3 class="online">
+                ● ONLINE
+            </h3>
+
+            <p>
+                Stav serveru
+            </p>
+
         </div>
 
         <div class="status-item">
-            <h3>26.2</h3>
-            <p>Minecraft verze</p>
+
+            <h3>
+                26.2
+            </h3>
+
+            <p>
+                Minecraft verze
+            </p>
+
         </div>
 
         <div class="status-item">
-            <h3>Vanilla</h3>
-            <p>Typ serveru</p>
+
+            <h3>
+                Vanilla
+            </h3>
+
+            <p>
+                Typ serveru
+            </p>
+
         </div>
 
     </div>
@@ -527,30 +664,46 @@
 </section>
 
 
-<!-- SERVER -->
+<!-- ================= SERVER ================= -->
+
 <section id="servery">
 
     <div class="section-title">
-        <h2>Servery</h2>
-        <p>Jeden server. Jedna IP.</p>
+
+        <h2>
+            Servery
+        </h2>
+
+        <p>
+            Jeden server. Jedna IP.
+        </p>
+
     </div>
 
     <div class="server-card">
 
-        <h3>🌍 TRIDENTXMP Survival</h3>
+        <h3>
+            🌍 TRIDENTXMP Survival
+        </h3>
 
         <p>
-            Vanilla Minecraft server pro společné hraní,
-            stavění a dobrodružství.
+            Vanilla Minecraft server pro společné
+            hraní, stavění a dobrodružství.
         </p>
 
         <div class="ip-box">
 
-            <span class="ip" id="serverIP">
-                Frana1.aternos.me
+            <span
+                class="ip"
+                id="serverIP"
+            >
+                Creative-M1XY.aternos.me
             </span>
 
-            <button class="copy-btn" onclick="copyIP()">
+            <button
+                class="copy-btn"
+                onclick="copyIP()"
+            >
                 Kopírovat IP
             </button>
 
@@ -561,46 +714,76 @@
 </section>
 
 
-<!-- JAK SE PŘIPOJIT -->
+<!-- ================= JAK SE PŘIPOJIT ================= -->
+
 <section id="pripojeni">
 
     <div class="section-title">
-        <h2>Jak se připojit</h2>
-        <p>Připojení zvládneš během několika sekund.</p>
+
+        <h2>
+            Jak se připojit
+        </h2>
+
+        <p>
+            Připojení zvládneš během několika sekund.
+        </p>
+
     </div>
 
     <div class="steps">
 
         <div class="step">
-            <div class="step-number">1</div>
 
-            <h3>Spusť Minecraft</h3>
+            <div class="step-number">
+                1
+            </div>
+
+            <h3>
+                Spusť Minecraft
+            </h3>
 
             <p>
-                Otevři Minecraft Java Edition ve verzi 26.2.
+                Otevři Minecraft Java Edition
+                ve verzi 26.2.
             </p>
+
         </div>
 
-        <div class="step">
-            <div class="step-number">2</div>
 
-            <h3>Přidej server</h3>
+        <div class="step">
+
+            <div class="step-number">
+                2
+            </div>
+
+            <h3>
+                Přidej server
+            </h3>
 
             <p>
-                Klikni na Multiplayer a následně na
-                Přidat server.
+                Klikni na Multiplayer a následně
+                na Přidat server.
             </p>
+
         </div>
 
-        <div class="step">
-            <div class="step-number">3</div>
 
-            <h3>Zadej IP</h3>
+        <div class="step">
+
+            <div class="step-number">
+                3
+            </div>
+
+            <h3>
+                Zadej IP
+            </h3>
 
             <p>
-                Zadej adresu Frana1.aternos.me
+                Zadej adresu
+                <strong>Creative-M1XY.aternos.me</strong>
                 a připoj se.
             </p>
+
         </div>
 
     </div>
@@ -608,34 +791,73 @@
 </section>
 
 
-<!-- STATISTIKY -->
+<!-- ================= STATISTIKY ================= -->
+
 <section>
 
     <div class="section-title">
-        <h2>TRIDENTXMP</h2>
-        <p>Informace o serveru</p>
+
+        <h2>
+            TRIDENTXMP
+        </h2>
+
+        <p>
+            Informace o serveru
+        </p>
+
     </div>
 
     <div class="stats">
 
         <div class="stat">
-            <h3>1</h3>
-            <p>Server</p>
+
+            <h3>
+                1
+            </h3>
+
+            <p>
+                Server
+            </p>
+
         </div>
 
-        <div class="stat">
-            <h3>26.2</h3>
-            <p>Verze</p>
-        </div>
 
         <div class="stat">
-            <h3>64</h3>
-            <p>Shop položek</p>
+
+            <h3>
+                26.2
+            </h3>
+
+            <p>
+                Verze
+            </p>
+
         </div>
 
+
         <div class="stat">
-            <h3>24/7</h3>
-            <p>Komunita</p>
+
+            <h3>
+                64
+            </h3>
+
+            <p>
+                Shop položek
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h3>
+                24/7
+            </h3>
+
+            <p>
+                Komunita
+            </p>
+
         </div>
 
     </div>
@@ -643,22 +865,36 @@
 </section>
 
 
-<!-- SHOP -->
+<!-- ================= SHOP ================= -->
+
 <section id="shop">
 
     <div class="section-title">
-        <h2>🛒 Shop</h2>
-        <p>Speciální předměty pro hráče</p>
+
+        <h2>
+            🛒 Shop
+        </h2>
+
+        <p>
+            Speciální předměty pro hráče
+        </p>
+
     </div>
 
     <div class="shop-grid">
 
+
         <!-- VLASTNÍK HEAD -->
+
         <div class="shop-card">
 
-            <div class="shop-icon">👑</div>
+            <div class="shop-icon">
+                👑
+            </div>
 
-            <h3>VlastníkHead</h3>
+            <h3>
+                VlastníkHead
+            </h3>
 
             <p>
                 Speciální předmět pro hráče.
@@ -679,12 +915,17 @@
         </div>
 
 
-        <!-- UFO ARMOR -->
+        <!-- FULL UFO ARMOR -->
+
         <div class="shop-card">
 
-            <div class="shop-icon">🛸</div>
+            <div class="shop-icon">
+                🛸
+            </div>
 
-            <h3>FullUfoArmor</h3>
+            <h3>
+                FullUfoArmor
+            </h3>
 
             <p>
                 Kompletní brnění UFO.
@@ -709,12 +950,20 @@
 </section>
 
 
-<!-- PRAVIDLA -->
+<!-- ================= PRAVIDLA ================= -->
+
 <section id="pravidla">
 
     <div class="section-title">
-        <h2>📜 Pravidla serveru</h2>
-        <p>Dodržuj pravidla a respektuj ostatní hráče.</p>
+
+        <h2>
+            📜 Pravidla serveru
+        </h2>
+
+        <p>
+            Dodržuj pravidla a respektuj ostatní hráče.
+        </p>
+
     </div>
 
     <div class="rules">
@@ -748,12 +997,15 @@
 </section>
 
 
-<!-- DISCORD -->
+<!-- ================= DISCORD ================= -->
+
 <section id="discord">
 
     <div class="discord-box">
 
-        <h2>💬 Připoj se na Discord</h2>
+        <h2>
+            💬 Připoj se na Discord
+        </h2>
 
         <p>
             Sleduj novinky, komunikuj s hráči
@@ -773,37 +1025,51 @@
 </section>
 
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
+
 <footer>
 
     <p>
-        © 2026 <strong>TRIDENTXMP</strong>
+        © 2026
+        <strong>TRIDENTXMP</strong>
         — Minecraft Server
     </p>
 
     <p style="margin-top:10px;">
-        Minecraft server:
-        <strong>Frana1.aternos.me</strong>
+
+        Server IP:
+        <strong>
+            Creative-M1XY.aternos.me
+        </strong>
+
     </p>
 
 </footer>
 
 
+<!-- ================= JAVASCRIPT ================= -->
+
 <script>
 
 function copyIP() {
 
-    const ip = "Frana1.aternos.me";
+    const ip = "Creative-M1XY.aternos.me";
 
     navigator.clipboard.writeText(ip);
 
-    const button = document.querySelector(".copy-btn");
+    const button =
+        document.querySelector(".copy-btn");
 
-    button.textContent = "✓ Zkopírováno";
+    button.textContent =
+        "✓ Zkopírováno";
 
-    setTimeout(() => {
-        button.textContent = "Kopírovat IP";
+    setTimeout(function () {
+
+        button.textContent =
+            "Kopírovat IP";
+
     }, 2000);
+
 }
 
 </script>
