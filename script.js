@@ -1,4 +1,4 @@
-const serverIP = "Creative-M1XY.aternos.me";
+const serverIP = "Server-KimP.aternos.me";
 
 function copyIP() {
   navigator.clipboard.writeText(serverIP)
