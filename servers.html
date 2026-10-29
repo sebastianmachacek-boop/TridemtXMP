@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Servery | TRIDENTXMP Minecraft Server</title>
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<!-- ================= HEADER ================= -->
+<header>
+<div class="navbar">
+<div class="logo"><a href="index.html" style="color: inherit; text-decoration: none;">⛏ TRIDENTXMP</a></div>
+<nav><a href="index.html">Domů</a><a href="servers.html">Servery</a><a href="start.html">Jak začít</a><a href="shop.html">Shop</a><a href="rules.html">Pravidla</a><a href="discord.html">Discord</a></nav>
+<div class="buttons"><a class="btn" href="shop.html">Obchod</a><a class="btn btn-primary" href="https://discord.com/channels/1535264749510590484/1550774524423704678" rel="noopener noreferrer" target="_blank">Discord</a></div>
+</div>
+</header>
+<!-- ================= HERO ================= -->
+
+<!-- ================= STATUS ================= -->
+<section>
+<div class="section-title">
+<h2>
+            Stav serveru
+        </h2>
+<p>
+            Informace o našem Minecraft serveru
+        </p>
+</div>
+<div class="status-box">
+<div class="status-item">
+<h3 class="online">
+                ● ONLINE
+            </h3>
+<p>
+                Stav serveru
+            </p>
+</div>
+<div class="status-item">
+<h3>
+                26.2
+            </h3>
+<p>
+                Minecraft verze
+            </p>
+</div>
+<div class="status-item">
+<h3>
+                Vanilla
+            </h3>
+<p>
+                Typ serveru
+            </p>
+</div>
+</div>
+</section>
+<!-- ================= SERVER ================= -->
+<section id="servery">
+<div class="section-title">
+<h2>
+            Servery
+        </h2>
+<p>
+            Jeden server. Jedna IP.
+        </p>
+</div>
+<div class="server-card">
+<h3>
+            🌍 TRIDENTXMP Survival
+        </h3>
+<p>
+            Vanilla Minecraft server pro společné
+            hraní, stavění a dobrodružství.
+        </p>
+<div class="ip-box">
+<span class="ip" id="serverIP">
+                Server-KimP.aternos.me
+            </span>
+<button class="copy-btn" onclick="copyIP()">
+                Kopírovat IP
+            </button>
+</div>
+</div>
+</section>
+<!-- ================= JAK SE PŘIPOJIT ================= -->
+
+<!-- ================= STATISTIKY ================= -->
+<section>
+<div class="section-title">
+<h2>
+            TRIDENTXMP
+        </h2>
+<p>
+            Informace o serveru
+        </p>
+</div>
+<div class="stats">
+<div class="stat">
+<h3>
+                1
+            </h3>
+<p>
+                Server
+            </p>
+</div>
+<div class="stat">
+<h3>
+                26.2
+            </h3>
+<p>
+                Verze
+            </p>
+</div>
+<div class="stat">
+<h3>
+                64
+            </h3>
+<p>
+                Shop položek
+            </p>
+</div>
+<div class="stat">
+<h3>
+                24/7
+            </h3>
+<p>
+                Komunita
+            </p>
+</div>
+</div>
+</section>
+<!-- ================= SHOP ================= -->
+
+<!-- ================= PRAVIDLA ================= -->
+
+<!-- ================= DISCORD ================= -->
+
+<!-- ================= FOOTER ================= -->
+<footer>
+<p>
+        © 2026
+        <strong>TRIDENTXMP</strong>
+        — Minecraft Server
+    </p>
+<p style="margin-top:10px;">
+
+        Server IP:
+        <strong>
+            Server-KimP.aternos.me
+        </strong>
+</p>
+</footer>
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+function copyIP() {
+  const ip = "Server-KimP.aternos.me";
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(ip).then(() => {
+      const button = document.querySelector(".copy-btn");
+      if (button) {
+        button.textContent = "✓ Zkopírováno";
+        setTimeout(() => button.textContent = "Kopírovat IP", 2000);
+      }
+    }).catch(() => window.prompt("Zkopíruj IP serveru:", ip));
+  } else {
+    window.prompt("Zkopíruj IP serveru:", ip);
+  }
+}
+</script></body>
+</html>
